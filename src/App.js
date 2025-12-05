@@ -23,11 +23,13 @@ import Footer from './components/Footer';
 import DashboardLayout from './components/Dashboard/DashboardLayout'; 
 import AdminServicios from './components/Dashboard/AdminServicios'; 
 import AdminPlanes from './components/Dashboard/AdminPlanes';       
+import Sidemenu from './components/Dashboard/Sidemenu';
 
 
 // Componente que agrupa la página pública completa (DEFINICIÓN DE COMPONENTE)
 const PublicApp = () => (
   <div className="App">
+    <Sidemenu/>
     <AppNavbar />
     <Hero />
     <Servicios />
